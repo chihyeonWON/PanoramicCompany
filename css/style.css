@@ -129,14 +129,14 @@ body {
   margin-right: 20px;
 }
 
-.wrap #circle .face1 .inner > div:hover i {
-  color: lightcyan;
-  text-shadow: 0px 0px 10px aqua;
-  transform: scale(1.2);
-  opacity: 1;
-}
-
 .wrap #circle article .inner > div:hover h2 {
   color: lightcyan;
   text-shadow: 0px 0px 10px aqua;
+}
+
+.wrap #circle article .inner > div:hover i {
+  color: lightcyan;
+  text-shadow: 0px 0px 10px aqua;
+  transform: scale(1.2);
+  transition: all 0.5s;
 }
