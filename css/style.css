@@ -245,10 +245,6 @@ body {
 }
 
 /* article5 */
-.wrap #circle .face5 {
-  display: block;
-}
-
 .wrap #circle .face5 .inner > div {
   width: 100%;
   height: 100%;
@@ -277,4 +273,41 @@ body {
 /* 마우스 호버 시 리플렉션 이미지가 위쪽으로 이동 */
 .wrap #circle .face5:hover .inner div .reflection {
   top: -40%;
+}
+
+/* article 6 */
+.wrap #circle .face6 {
+  display: block;
+}
+
+.wrap #circle .face6 .inner > div {
+  width: 100%;
+  height: 185px;
+  margin-bottom: 20px;
+}
+.wrap #circle .face6 .inner > div i {
+  width: 22%;
+  height: 100%;
+  border-right: 1px solid #bbb;
+  float: left;
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+  text-align: left;
+  line-height: 90px;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.wrap #circle .face6 .inner > div .con {
+  width: 75%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 40px;
+  float: right;
+}
+
+.wrap #circle .face6 .inner > div .con p {
+  font: 18px/1 "arial";
+  color: #999;
 }
