@@ -388,3 +388,42 @@ body {
   right: -20px;
   top: -20px;
 }
+
+.wrap #circle .face8 .inner > div:nth-of-type(2) {
+  width: 290px;
+  height: 380px;
+  margin-right: 20px;
+  float: left;
+  text-align: center;
+}
+
+.wrap #circle .face8 .inner > div:nth-of-type(2) i {
+  font-size: 120px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.wrap #circle .face8 .inner > div:nth-of-type(2) h3 {
+  margin: top 30px;
+  margin: bottom 14px;
+  font: bold 20px/1 "orbitron";
+}
+
+.wrap #circle .face8 .inner > div:nth-of-type(2) p {
+  font: 16px/1 "arial";
+  color: #ccc;
+}
+.wrap #circle .face8 .inner > div:nth-of-type(2) h4 {
+  font-size: 40px;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+.wrap #circle .face8 .inner > div:nth-of-type(2) h4 b {
+  font: bold 24px/1 "arial";
+  color: #ddd;
+  position: absolute;
+  top: 0px;
+  right: 40px;
+}
