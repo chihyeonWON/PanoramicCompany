@@ -309,10 +309,6 @@ body {
 }
 
 /* article 7 */
-.wrap #circle .face7 {
-  display: block;
-}
-
 .wrap #circle .face7 .inner > div {
   width: 100%;
   height: 100%;
@@ -357,4 +353,9 @@ body {
   bottom: 85px;
   right: -18px;
   width: 90%;
+}
+
+/* article 8 */
+.wrap #circle .face8 {
+  display: block;
 }
