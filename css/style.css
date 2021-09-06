@@ -459,3 +459,29 @@ body {
   top: 0px;
   right: 40px;
 }
+
+/* 3D 배치 */
+.face1 {
+  transform: rotateY(0deg);
+}
+.face2 {
+  transform: rotateY(45deg);
+}
+.face3 {
+  transform: rotateY(90deg);
+}
+.face4 {
+  transform: rotateY(135deg);
+}
+.face5 {
+  transform: rotateY(180deg);
+}
+.face6 {
+  transform: rotateY(225deg);
+}
+.face7 {
+  transform: rotateY(270deg);
+}
+.face8 {
+  transform: rotateY(315deg);
+}
