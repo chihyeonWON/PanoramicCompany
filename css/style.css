@@ -51,6 +51,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
+  backface-visibility: hidden; /* 반대쪽인 뒷면을 숨김 처리 */
 }
 
 .wrap #circle article h1 {
